@@ -4,7 +4,7 @@
 
 <br>
 
-Are you new to web development? Just learn HTML/CSS and you want to contribute to opensaurce?  Follow the steps below!
+Are you new to web development? Just learn HTML/CSS/JS and you want to contribute to opensaurce?  Follow the steps below!
 
 <br>
 
