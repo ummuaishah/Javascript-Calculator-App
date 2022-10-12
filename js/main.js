@@ -120,10 +120,10 @@ window.addEventListener("keydown", (e) => {
     clickEqual();
   } else if(e.key === `Backspace`){
     del.click()
-  }else if(e.key === `C`){
+  }else if(e.key === `c`){
     clearLastEl.click()
-  }else if(e.key === `Backspace`){
-    del.click()
+  }else if(e.key === `x`){
+    clearAllEl.click()
   }
 });
 function clickButtonEl(key) {
@@ -143,3 +143,4 @@ function clickOperation(key) {
 function clickEqual() {
   equalEl.click();
 }
+
