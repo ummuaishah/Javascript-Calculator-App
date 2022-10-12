@@ -54,7 +54,7 @@ body{
     height:3rem;
     color: rgb(18 22 108);
     text-align: right;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 5px;
     margin-bottom: 15px;
    
@@ -66,9 +66,10 @@ body{
     margin-bottom: 25px;
     color: rgb(18 22 108);
     text-align: right;
-    font-size: 1.2rem;
-    margin-right: 15px;
+    font-size: 3.2rem;
+    margin-right: 5px;
     font-weight: bold;
+
 
 }
 
@@ -84,9 +85,10 @@ body{
 .btn{
     background-color: var(--button-color);
     color: var(--text-color2);
-    font-size: 1.5rem;
-    border:none;
-    
+    font-size: 2.5rem;
+    border:2px solid coral;
+    border-radius: 15px;
+    cursor:pointer;
 }
 
 .btn > .rcircle {
@@ -121,18 +123,20 @@ body{
 
 .btn.operator.equal > button{
     color:var(--text-color2);
-    background-color:var(--button-operatorcolor);
-    width:65%;
+    background-color:green;
+    width:78%;
     height: 90%;
     border-radius: 10%;
     border:none;
     font-size: 3rem;
     z-index: 3000;
-   
+    cursor:pointer;
+    margin-top: 5%;
 }
 
 .btn.operator {
     color:var(--button-operatorcolor);
+    cursor: pointer;
     
 }
 
