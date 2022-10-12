@@ -6,9 +6,9 @@ A  calculator app built with JavaScript, HTML and CSS.
 
 
 ## Who can contribute
- Anyone interested in contributing to opensaurce project can contribute to this, It is a beginner friendly web application built with HTML, CSS and JavaScript
+ Anyone interested in contributing to open source project can contribute to this, It is a beginner friendly web application built with HTML, CSS and JavaScript
  <br>
- This project is made opensaurce to give opportunity to newbies in web development to contribute to opensaurce project
+ This project is made open source to give opportunity to newbies in web development to contribute to open source project
 
 
 ## How to get started with Open Source
