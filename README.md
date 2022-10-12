@@ -10,8 +10,8 @@ A  calculator app built with JavaScript, HTML and CSS.
  Anyone interested in contributing to open source project can contribute to this, It is a beginner friendly web application built with HTML, CSS and JavaScript
  <br>
  This project is made open source to give opportunity to newbies in web development to contribute to open source project
-<br
- Checkout CONTRIBUTING.md for more info on how to contribute to the project
+<br>
+ Checkout CONTRIBUTING.md for more info on how to contribute to this project
 
 
 
