@@ -26,26 +26,33 @@ body{
 
 .calc-container{
     background-color: var(--container-color);
-    height: 45rem;
-    width: 35rem;
+    height: 38rem;
+    width: 31rem;
     display: flex;
     flex-direction: column;
     border-radius: 5%;
-
-    
+    overflow-x: hidden;
+    border: 5px solid rgb(47, 44, 44);
 }
 
+
+
+    
+
+
 .calc-output{
-    flex: 1.3;
+    flex: 0.02;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    
+    padding-right: 30px;
+    background: #e9e7e7;
+
 }
 
 .button-output{
     height:3rem;
-    color:var(--text-color);
+    color: rgb(18 22 108);
     text-align: right;
     font-size: 2.5rem;
     margin: 5px;
@@ -55,13 +62,13 @@ body{
 
 .calc-result-output{
   
-    height:2rem;
+    height: 2rem;
     margin-bottom: 25px;
-    color:var(--text-color2);
+    color: rgb(18 22 108);
     text-align: right;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-right: 15px;
-   font-weight: bold;
+    font-weight: bold;
 
 }
 
@@ -135,9 +142,10 @@ body{
 }
 
 .btn.operator >span {
-    border:1px solid var(--button-operatorcolor);
+    /* border:1px solid var(--button-operatorcolor); */
      border-radius: 50%;
      padding: 1px;
+     font-size: 30px;
 }
 
 @media (max-width:700px) {
