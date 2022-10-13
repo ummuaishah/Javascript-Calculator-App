@@ -52,7 +52,7 @@ Now you know some basic terms, let's get into how to get started with some resou
 - Fork the repo to your Github.<br/>
 
 - Clone the Repo by going to your local Git Client in a particular local folder in your local machine by using this command with your forked repository link in place of below given link: <br/>
-  `git clone https://github.com/Emilance/Javascript-Calculator-App`
+  `git clone https://github.com/your-github-username/Javascript-Calculator-App.git`
 - Create a branch using below command.
   `git branch <your branch name>`
 - Checkout to your branch.
