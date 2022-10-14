@@ -28,11 +28,13 @@ section{
 }
 
 .display{
+  
   grid-column: span 4;
   height: 68px;
   width: 258px;
-  box-shadow: inset -6px -6px 13px #fff, inset 6px 6px 13px rgba(0,0,0,.16);
-  background-color: #ecf0f3;
+  background: linear-gradient(145deg, #fdffff, #d4d8db);
+  box-shadow:  7px 7px 20px #4b6d75,
+               -7px -7px 20px #8dcfdf;
   border: none;
   border-radius: 32px;
   color: rgb(26,25,25);
@@ -53,8 +55,10 @@ section{
 }
 
 .button{
-  box-shadow:  inset 6px 6px 13px #fff, 6px 6px 13px rgba(0,0,0,.16);
-  background-color: #ecf0f3;
+  border-radius: 46px;
+  background: linear-gradient(145deg, #618e99, #74a9b6);
+  box-shadow:  7px 7px 20px #4b6d75,
+               -7px -7px 20px #8dcfdf;
   border: none;
   border-radius: 50%;
   width: 40px;
@@ -64,4 +68,9 @@ section{
   font-size: 20px;
   text-align: center;
   cursor: pointer;
+}
+
+.button:hover{
+  box-shadow: inset 7px 7px 20px #4b6d75,
+            inset -7px -7px 20px #8dcfdf;
 }
