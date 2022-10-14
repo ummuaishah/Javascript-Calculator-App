@@ -1,33 +1,54 @@
 html {
   --bg: #ebebeb;
+  --display-bg: linear-gradient(145deg, #fdffff, #d4d8db);
+  --display-shadow: 7px 7px 20px #4b6d75,
+    -7px -7px 20px #8dcfdf;
+  ;
   --toggle-btn: #231f20;
   --body-color: rgb(95, 123, 140);
-  --btns-color: rgba(255, 255, 255, 0.137);
+  --btns-color: linear-gradient(145deg, #618e99, #74a9b6);
   --btns-hover-color: rgb(90, 135, 145);
   --container-bg: rgb(108, 158, 170);
+  --btn-shadow: 7px 7px 20px #4b6d75,
+    -7px -7px 20px #8dcfdf;
+  --btn-hover-shadow: inset 7px 7px 20px #4b6d75,
+    inset -7px -7px 20px #8dcfdf;
 }
+
+/* background: linear-gradient(145deg, #f9b000, #24231f);
+    box-shadow: 7px 7px 20px #080a0a, -7px -7px 20px #855923b3; */
 
 html[data-theme='dark'] {
   --bg: #434343;
+  --display-bg: linear-gradient(145deg, #f9b000, #f3b692);
+  --display-shadow: 7px 7px 20px #080a0a, -7px -7px 20px #855923b3;
   --toggle-btn: #b5b5b5;
   --body-color: rgb(18, 26, 31);
-  --btns-color: rgba(92, 92, 92, 0.137);
+  --btns-color: linear-gradient(145deg, #f9b000, #24231f);
   --btns-hover-color: rgb(20, 28, 30);
   --container-bg: rgb(39, 55, 59);
+  --btn-shadow: 7px 7px 20px #080a0a, -7px -7px 20px #855923b3;
+  --btn-hover-shadow: inset 7px 7px 10px #55400b,
+    inset -7px -7px 20px #dc9f09;
+
 }
+
 body {
   background-color: var(--body-color);
 }
+
 .toggle-container {
   display: flex;
   justify-content: end;
   align-items: center;
 }
+
 .toggle-container label {
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 15px;
 }
+
 input[type='checkbox'] {
   height: 0;
   width: 0;
@@ -55,11 +76,11 @@ input[type='checkbox'] {
   border-radius: 90px;
 }
 
-input:checked + .toggleLabel {
+input:checked+.toggleLabel {
   background: var(--toggle-btn);
 }
 
-input:checked + .toggleLabel:after {
+input:checked+.toggleLabel:after {
   left: calc(100% - 5px);
   transform: translateX(-100%);
   transition: 300ms ease-in-out;
@@ -96,10 +117,10 @@ label .moon {
   color: #5d5d5d;
 }
 
-input:checked + label .sun {
+input:checked+label .sun {
   color: #5d5d5d;
 }
 
-input:checked + label .moon {
+input:checked+label .moon {
   color: #ffdf00;
 }
