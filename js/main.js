@@ -48,25 +48,15 @@ function clearVar(name = "") {
 }
 
 function mathOperation() {
-  if (lastOperation === "x") {
-    result = parseFloat(result) * parseFloat(dis2Num);
-  } else if (lastOperation === "+") {
-    result = parseFloat(result) + parseFloat(dis2Num);
-  } else if (lastOperation === "-") {
-    result = parseFloat(result) - parseFloat(dis2Num);
-  } else if (lastOperation === "/") {
-    result = parseFloat(result) / parseFloat(dis2Num);
-  } else if (lastOperation === "%") {
-    result = parseFloat(result) % parseFloat(dis2Num);
-  }
+  result  =`${result} ${lastOperation} ${dis2Num}`
 }
-// operation();
 
 equalEl.addEventListener("click", () => {
   if (!dis2Num || !dis1Num) return;
   haveDot = false;
   mathOperation();
   clearVar();
+  result = evaluate(result.replaceAll("x", "*"))
   display2El.innerText = result;
   tempResultEl.innerText = "";
   dis2Num = result;
@@ -94,10 +84,10 @@ del.addEventListener(`click`, ()=>{
 })
 
 
-
-
-
 window.addEventListener("keydown", (e) => {
+  if (e.key === '/' || e.key === 'Backspace'){
+    e.preventDefault();
+  }
   if (
     e.key === "0" ||
     e.key === "1" ||
