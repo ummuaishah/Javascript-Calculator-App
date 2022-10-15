@@ -5,11 +5,11 @@ html {
     -7px -7px 20px #8dcfdf;
   ;
   --toggle-btn: #231f20;
-  --body-color: rgb(95, 123, 140);
+  --body-color: rgb(51 75 89);
   --btns-color: linear-gradient(145deg, #618e99, #74a9b6);
   --btns-hover-color: rgb(90, 135, 145);
-  --container-bg: rgb(108, 158, 170);
-  --btn-shadow: 7px 7px 20px #4b6d75,
+  --container-bg: rgb(49, 166, 195);
+  --btn-shadow: 7px 7px 20px #1d6171,
     -7px -7px 20px #8dcfdf;
   --btn-hover-shadow: inset 7px 7px 20px #4b6d75,
     inset -7px -7px 20px #8dcfdf;
