@@ -1,10 +1,30 @@
+<h1 align="center">A  calculator app built with JavaScript, HTML and CSS</h1>
+
+<div align="center">
+    <img alt="Desktop" title="#Desktop" src="./images/mockup.jpg" width="680px" />
+</div>
+
+<div align="center">
+  <img src="https://sloc.xyz/github/Emilance/Javascript-Calculator-App" alt="Total lines">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=aritra-tech/Emilance.Javascript-Calculator-App" alt="Number of Visitors">
+  <a href="https://github.com/Emilance/Javascript-Calculator-App/stargazers"><img src="https://img.shields.io/github/stars/Emilance/Javascript-Calculator-App" alt="Stars Badge" /></a>
+  <a href="https://github.com/Emilance/Javascript-Calculator-App/network/members"><img src="https://img.shields.io/github/forks/Emilance/Javascript-Calculator-App" alt="Forks Badge" /></a>
+  <a href="https://github.com/Emilance/Javascript-Calculator-App/pulls"><img src="https://img.shields.io/github/issues-pr/Emilance/Javascript-Calculator-App" alt="Pull Requests Badge" /></a>
+  <a href="https://github.com/Emilance/Javascript-Calculator-App/issues"><img src="https://img.shields.io/github/issues/Emilance/Javascript-Calculator-App" alt="Issues Badge" /></a>
+  <a href="https://github.com/Emilance/Javascript-Calculator-App/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Emilance/Javascript-Calculator-App?color=2b9348"></a>
+</div>
+
 # A  calculator app built with JavaScript, HTML and CSS.
 
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
 
-### Link to project :  https://emmycalculatorapp.netlify.app
+<div align="center">
+  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
+  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
+</div>
+
+### 🕹 Live Project:
+- https://emmycalculatorapp.netlify.app
 
 ## Who can contribute
  Anyone interested in contributing to open source project can contribute to this, It is a beginner friendly web application built with HTML, CSS and JavaScript
@@ -12,8 +32,6 @@
  This project is made open source to give opportunity to newbies in web development to contribute to open source project
 <br>
  Checkout CONTRIBUTING.md for more info on how to contribute to this project
-
-
 
 
 ## How to get started with Open Source
